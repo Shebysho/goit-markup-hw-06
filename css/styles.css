@@ -1,19 +1,82 @@
 body{
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 2%;
+    color: #434455;
+    background-color:#ffffff;
+}
+.logo{
+    font-family: "Raleway, sans-serif";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform:uppercase;
+    color: #4d5ae5;
 }
 
-h1{
-    font-family: "Roboto";
-    font-weight: bold;
-    font-size: 56px;
-    letter-spacing: 2%;
-    line-height: 60px;
+.logo1{
+    color:#2e2f42;
 }
+.studio{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.studio:hover{
+    color:#404bbf;
+}
+.studio:focus{
+    color: #404BBF;
+}
+.portfolio{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.portfolio:hover
+.portfolio:focus{
+    color: #404BBF;
+}
+.contacts{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+
+}
+.adressa{
+    font-style: normal;
+}
+.mail{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;;
+    color: #434455;
+}
+.mail:hover
+.mail:focus{
+    color: #404BBF;
+}
+.tell{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;;
+    color: #434455;
+}
+.tell:hover
+.tell:focus{
+    color: #404BBF;
+}
+
 h2{
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-weight:bold;
     font-size: 36px;
     letter-spacing: 2%;
@@ -21,13 +84,13 @@ h2{
 }
 
 h3{
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 2%;
 }
 a{
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 4%;
@@ -37,11 +100,224 @@ a{
     color: white;
 
 }
-button{
-    font-family: "Roboto";
+.zahol{
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 56px;
+    letter-spacing: 0.02em;
+    line-height: 1.07;
+    text-align: center;
+}
+.button{
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 4%;
-    background-color: #404BBF;
+    background-color: #4D5AE5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
  }
+ .puncts{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+ }
+
+ .strateg{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+ }
+ .punctual{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+ }
+ .dilig{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+ }
+ .techn{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+ }
+ .photo{
+    background-color: #F4F4FD;
+ }
+ .zahol1{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+ }
+ .spys{
+    #FFFFFF;
+ }
+ .mark{
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+ }
+.product{
+    font-size: 16px;
+    line-height: 1.5 ;
+    letter-spacing: 0.02em;
+    color:#434455;
+}
+.spys1{
+    #FFFFFF;
+ }
+ .tomf{
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+ }
+.front{
+    font-size: 16px;
+    line-height: 1.5 ;
+    letter-spacing: 0.02em;
+    color:#434455;
+}
+.spys2{
+    #FFFFFF;
+ }
+ .camila{
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+ }
+.market{
+    font-size: 16px;
+    line-height: 1.5 ;
+    letter-spacing: 0.02em;
+    color:#434455;
+}
+.spys3{
+    #FFFFFF;
+ }
+ .dani{
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+ }
+.desig{
+    font-size: 16px;
+    line-height: 1.5 ;
+    letter-spacing: 0.02em;
+    color:#434455;
+}
+.our_portfolio{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color:#2E2F42;
+}
+.bank-app{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.app_{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.cachless{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.marketing{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.met-app{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.app-1{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.taxi{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.marketing_1{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.screen{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.design_1{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.online{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.marketing-01{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.footer-1{
+    background-color: #2E2F42;
+
+}
+.logo-01{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em ;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.span-01{
+    color: #F4F4FD;
+}
+.increase{
+    line-height: 1.5;
+    color:#F4F4FD;
+    letter-spacing: 0.02em;
+}
