@@ -25,9 +25,7 @@ body{
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-.studio:hover{
-    color:#404bbf;
-}
+.studio:hover,
 .studio:focus{
     color:#404bbf;
 }
@@ -38,11 +36,9 @@ body{
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-.portfolio:hover{
-    color:#404bbf;
-}
+.portfolio:hover,
 .portfolio:focus{
-    color: #404BBF;
+    color:#404bbf;
 }
 .contacts{
     font-weight: 500;
@@ -51,12 +47,11 @@ body{
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-.contacts:focus{
-    color:#404bbf;
-}
+.contacts:focus,
 .contacts:hover{
     color:#404bbf;
 }
+
 .adressa{
     font-style: normal;
 }
@@ -66,24 +61,22 @@ body{
     letter-spacing: 0.02em;
     color: #434455;
 }
-.mail:hover{
+.mail:hover,
+.mail:focus{
     color:#404bbf;
 }
-.mail:focus{
-    color: #404BBF;
-}
+
 .tell{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.tell:hover{
+.tell:hover,
+.tell:focus{
     color:#404bbf;
 }
-.tell:focus{
-    color: #404BBF;
-}
+
 .element1{
     background-color: #2E2F42;
 }
@@ -115,6 +108,7 @@ a{
     letter-spacing: 0.02em;
     line-height: 1.07;
     text-align: center;
+    color: #ffffff;
 }
 .button{
     font-family: "Roboto", sans-serif;
@@ -127,18 +121,24 @@ a{
     color: #ffffff;
     cursor: pointer;
  }
- .button:hover{
-    color:#404bbf;
- }
+ .button:hover,
  .button:focus{
-    color:#404bbf;
+    background-color:#404bbf;
  }
+ 
  .puncts{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     color:#2E2F42;
     letter-spacing:0.02em;
+ }
+ .strategy{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
  }
 
  .strateg{
@@ -147,17 +147,42 @@ a{
     letter-spacing: 0.02em;
     color:#434455;
  }
+
+ .punctuality{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+ }
+
  .punctual{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#434455;
  }
+
+ .diligence{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+ }
  .dilig{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#434455;
+ }
+
+ .technolog{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
  }
  .techn{
     font-size: 16px;
@@ -166,7 +191,7 @@ a{
     color:#434455;
  }
  .photo{
-    background-color: #FFFFFF ;
+    background-color: #F4F4FD ;
  }
  .zahol1{
     font-size: 36px;
@@ -177,7 +202,7 @@ a{
     color: #2E2F42;
  }
  .spys{
-    #FFFFFF;
+    background-color: #FFFFFF;
 }
  .mark{
     letter-spacing: 0.02em;
@@ -190,7 +215,7 @@ a{
     color:#434455;
 }
 .spys1{
-    #FFFFFF;
+    background-color: #FFFFFF;
 }
  .tomf{
     letter-spacing: 0.02em;
@@ -203,7 +228,7 @@ a{
     color:#434455;
 }
 .spys2{
-    #FFFFFF;
+    background-color: #FFFFFF;
 }
  .camila{
     letter-spacing: 0.02em;
@@ -216,7 +241,7 @@ a{
     color:#434455;
 }
 .spys3{
-    #FFFFFF;
+    background-color: #FFFFFF;
 }
  .dani{
     letter-spacing: 0.02em;
@@ -315,7 +340,7 @@ a{
     color: #434455;
 }
 .footer1{
-    background-color: #2E2F42;
+    background-color:#2e2f42;
 
 }
 .logo01{
