@@ -29,28 +29,6 @@ body{
 .studio:focus{
     color:#404bbf;
 }
-.portfolio{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-}
-.portfolio:hover,
-.portfolio:focus{
-    color:#404bbf;
-}
-.contacts{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-}
-.contacts:focus,
-.contacts:hover{
-    color:#404bbf;
-}
 
 .adressa{
     font-style: normal;
@@ -63,17 +41,6 @@ body{
 }
 .mail:hover,
 .mail:focus{
-    color:#404bbf;
-}
-
-.tell{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-.tell:hover,
-.tell:focus{
     color:#404bbf;
 }
 
@@ -148,48 +115,6 @@ a{
     color:#434455;
  }
 
- .punctuality{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
- }
-
- .punctual{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color:#434455;
- }
-
- .diligence{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
- }
- .dilig{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color:#434455;
- }
-
- .technolog{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
- }
- .techn{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color:#434455;
- }
  .photo{
     background-color: #F4F4FD ;
  }
@@ -217,42 +142,7 @@ a{
 .spys_{
     background-color: #FFFFFF;
 }
- .tomf{
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-}
-.front{
-    font-size: 16px;
-    line-height: 1.5 ;
-    letter-spacing: 0.02em;
-    color:#434455;
-}
-.spysok{
-    background-color: #FFFFFF;
-}
- .camila{
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-}
-.market{
-    font-size: 16px;
-    line-height: 1.5 ;
-    letter-spacing: 0.02em;
-    color:#434455;
-}
-.spysok_{
-    background-color: #FFFFFF;
-}
- .dani{
-    letter-spacing: 0.02em;
-    color: #2E2F42;
- }
-.desig{
-    font-size: 16px;
-    line-height: 1.5 ;
-    letter-spacing: 0.02em;
-    color:#434455;
-}
+
 .our_portfolio{
     font-size: 36px;
     line-height: 1.11;
@@ -274,71 +164,7 @@ a{
     letter-spacing: 0.02em;
     color: #434455;
 }
-.cachless{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-}
-.marketing{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-.met-app{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-}
-.ap_p{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-.taxi{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-}
-.marketing__{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-.screen{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-}
-.design__{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-.online{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-}
-.marketing---{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
+
 .footer{
     background-color:#2e2f42;
 
