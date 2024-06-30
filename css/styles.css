@@ -6,6 +6,14 @@ body{
     color: #434455;
     background-color:#ffffff;
 }
+
+a{
+    text-decoration:none;
+}
+
+ul{
+    list-style: none;
+}
 .logo{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -49,7 +57,6 @@ body{
 }
 
 .zahol{
-    font-family: "Roboto", sans-serif;
     font-weight: bold;
     font-size: 56px;
     letter-spacing: 0.02em;
