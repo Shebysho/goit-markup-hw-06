@@ -68,7 +68,7 @@ ul{
     line-height: 1.5; 
     letter-spacing: 0.02em; 
     color: #2E2F42; 
-    padding: 24px 0ж
+    padding: 24px 0;
 } 
 .studio:hover, 
 .studio:focus{ 
@@ -136,7 +136,7 @@ ul{
  .button:focus{ 
     background-color:#404bbf; 
  } 
- .visually-hiden{
+ .visualy-hiden{
     position: absolute;
     width: 1px;
     height: 1px;
