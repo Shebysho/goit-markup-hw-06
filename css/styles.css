@@ -6,6 +6,7 @@ body{
     color: #434455; 
     background-color:#ffffff; 
 } 
+
 img{ 
     display: block 
 } 
@@ -32,7 +33,17 @@ ul{
     margin: 0%; 
     padding-left: 0%; 
 } 
-     
+.ulstudio{
+    display: flex;
+    gap: 40px
+}
+.listu{
+    padding: 24px 0;
+}
+.ulmail{
+    display: flex;
+    gap: 40px;
+}
 .logo{ 
     font-family: "Raleway", sans-serif; 
     font-weight: 700; 
@@ -220,6 +231,7 @@ ul{
     line-height: 1.2; 
     letter-spacing: 0.02em; 
     color: #2E2F42; 
+    margin-bottom: 8px;
 } 
 .bank-appino{ 
     padding: 32px 16px; 
