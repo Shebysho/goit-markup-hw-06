@@ -136,7 +136,7 @@ ul{
  .button:focus{ 
     background-color:#404bbf; 
  } 
- .visualy-hiden{
+ .visually-hiden{
     position: absolute;
     width: 1px;
     height: 1px;
