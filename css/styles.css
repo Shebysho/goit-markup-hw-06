@@ -1,199 +1,271 @@
-body{
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 2%;
-    color: #434455;
-    background-color:#ffffff;
-}
-
-a{
-    text-decoration:none;
-}
-h1,h2,h3,h4,h5,h6,p{
-    margin: 0%;
-
-}
-ul{
-    list-style: none;
-    margin: 0%;
-    padding-left: 0%;
-}
-    
-.logo{
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform:uppercase;
-    color: #4d5ae5;
-    max-width: 115px;
-    padding-left: 156px; 
-    padding-top:24px;  
-}
-.logo___{
-    color:#2e2f42;
-}
-.studio{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-}
-.studio:hover,
-.studio:focus{
-    color:#404bbf;
-}
-
-.adressa{
-    font-style: normal;
-}
-.mail{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-.mail:hover,
-.mail:focus{
-    color:#404bbf;
-}
-
-.element{
-    background-color: #2E2F42;
-}
-
-.zahol{
-    font-weight: bold;
-    font-size: 56px;
-    letter-spacing: 0.02em;
-    line-height: 1.07;
-    text-align: center;
-    color: #ffffff;
-    max-width: 496px;
-    max-height: 120px;
-    padding-left:  472px;
-    padding-top: 260px;  
-}
-.button{
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 4%;
-    background-color: #4D5AE5;
-    letter-spacing: 0.04em;
-    color: #ffffff;
-    cursor: pointer;
- }
- .button:hover,
- .button:focus{
-    background-color:#404bbf;
- }
+body{ 
+    font-family: "Roboto", sans-serif; 
+    font-size: 16px; 
+    line-height: 24px; 
+    letter-spacing: 2%; 
+    color: #434455; 
+    background-color:#ffffff; 
+} 
+img{ 
+    display: block 
+} 
+a{ 
+    text-decoration:none; 
+} 
+h1,h2,h3,h4,h5,h6,p{ 
+    margin: 0%; 
  
- .puncts{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    color:#2E2F42;
-    letter-spacing:0.02em;
- }
- .strategy{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+} 
+.headerer{ 
+    border-bottom: 1px solid #e7e9fc; 
+} 
+.divnav{ 
+    display: flex; 
+} 
+.navigation{ 
+    display: flex; 
+    align-items: center; 
+ 
+} 
+ul{ 
+    list-style: none; 
+    margin: 0%; 
+    padding-left: 0%; 
+} 
+     
+.logo{ 
+    font-family: "Raleway", sans-serif; 
+    font-weight: 700; 
+    font-size: 18px; 
+    line-height: 1.17; 
+    letter-spacing: 0.03em; 
+    text-transform:uppercase; 
+    color: #4d5ae5; 
+    max-width: 115px; 
+    padding-left: 156px;  
+    padding-top:24px; 
+    margin-right: 76px   
+} 
+.logo___{ 
+    color:#2e2f42; 
+} 
+.studio{ 
+    font-weight: 500; 
+    font-size: 16px; 
+    line-height: 1.5; 
+    letter-spacing: 0.02em; 
+    color: #2E2F42; 
+} 
+.studio:hover, 
+.studio:focus{ 
+    color:#404bbf; 
+} 
+ 
+.adressa{ 
+    font-style: normal; 
+} 
+.mail{ 
+    font-size: 16px; 
+    line-height: 1.5; 
+    letter-spacing: 0.02em; 
+    color: #434455; 
+} 
+.mail:hover, 
+.mail:focus{ 
+    color:#404bbf; 
+} 
+ 
+.element{ 
+    background-color: #2E2F42; 
+    padding: 188px 0; 
+} 
+ 
+.zahol{ 
+    font-weight: bold; 
+    font-size: 56px; 
+    letter-spacing: 0.02em; 
+    line-height: 1.07; 
+    text-align: center; 
+    color: #ffffff; 
+    max-width: 496px; 
+} 
+.button{ 
+    font-family: "Roboto", sans-serif; 
+    font-weight: 500; 
+    font-size: 16px; 
+    line-height: 24px; 
+    letter-spacing: 4%; 
+    background-color: #4D5AE5; 
+    letter-spacing: 0.04em; 
+    color: #ffffff; 
+    cursor: pointer; 
+    display: block; 
+    min-width: 169px; 
+    height: 56px; 
+    border: none; 
+    background-color: #4d5ae5; 
+    border-radius: 4px; 
+    cursor: pointer; 
+ } 
+ .elemento{ 
+    padding: 120px 0; 
+ } 
+ .ulstrateg{ 
+    display: flex; 
+    gap: 24px; 
+ 
+ } 
+ .ourgoal{ 
+    width: calc((100% - 72px) / 4); 
+ } 
+ .button:hover, 
+ .button:focus{ 
+    background-color:#404bbf; 
+ } 
+  
+ .puncts{ 
+    font-weight: 500; 
+    font-size: 20px; 
+    line-height: 1.2; 
+    color:#2E2F42; 
+    letter-spacing:0.02em; 
+ } 
+ .strategy{ 
+    font-weight: 500; 
+    font-size: 20px; 
+    line-height: 1.2; 
+    letter-spacing: 0.02em; 
+    color: #2E2F42; 
+    margin-bottom: 8px; 
+ } 
+ 
+ .strateg{ 
+    font-size: 16px; 
+    line-height: 1.5; 
+    letter-spacing: 0.02em; 
+    color:#434455; 
+ } 
+ 
+ .photo{ 
+    background-color: #F4F4FD ; 
+    padding: 120px 0; 
+ 
+ } 
+ .zaholovok{ 
+    font-size: 36px; 
+    line-height: 1.11; 
+    text-align: center; 
+    letter-spacing: 0.02em; 
+    text-transform: capitalize; 
+    color: #2E2F42; 
+    margin-bottom: 72px; 
+ 
+ } 
+ .ulspys{ 
+    display: flex; 
+    gap: 24px; 
+ } 
+.spys{ 
+    background-color: #FFFFFF; 
+    width: calc((100% - 72px) / 4); 
+    border-radius: 0px 0px 4px 4px; 
+} 
+.divimya{ 
+    padding: 32px 0; 
+} 
+ .mark{ 
+    letter-spacing: 0.02em; 
+    color: #2E2F42; 
+    font-weight: 500; 
+    font-size: 20px; 
+    line-height: 1.2; 
+    text-align: center; 
+    margin-bottom: 8px; 
+ 
+ } 
+.product{ 
+    font-size: 16px; 
+    line-height: 1.5 ; 
+    letter-spacing: 0.02em; 
+    color:#434455; 
+    text-align: center; 
+} 
+.spys_{ 
+    background-color: #FFFFFF; 
+} 
+.ourportmane{ 
+    padding: 120px 0 120px 0; 
+} 
+.our_portfolio{ 
+    font-size: 36px; 
+    line-height: 1.11; 
+    text-align: center; 
+    letter-spacing: 0.02em; 
+    text-transform: capitalize; 
+    color:#2E2F42; 
+    margin-bottom: 72px; 
+} 
+.ulapp{ 
+    display: flex; 
+    flex-wrap: wrap; 
+    column-gap: 24px; 
+    row-gap: 48px; 
+} 
+.ulappino{ 
+    width: calc((100% - 48px) / 3); 
+} 
+.bank-app{ 
+    font-weight: 500; 
+    font-size: 20px; 
+    line-height: 1.2; 
+    letter-spacing: 0.02em; 
+    color: #2E2F42; 
+} 
+.bank-appino{ 
+    padding: 32px 16px; 
+    border: 1px solid #e7e9fc; 
+    border-top: none; 
+    margin-bottom: 8px; 
+} 
+.app_{ 
+    font-size: 16px; 
+    line-height: 1.5; 
     letter-spacing: 0.02em;
-    color: #2E2F42;
- }
-
- .strateg{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color:#434455;
- }
-
- .photo{
-    background-color: #F4F4FD ;
- }
- .zaholovok{
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2E2F42;
- }
-.spys{
-    background-color: #FFFFFF;
-}
- .mark{
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-
- }
-.product{
-    font-size: 16px;
-    line-height: 1.5 ;
-    letter-spacing: 0.02em;
-    color:#434455;
-}
-.spys_{
-    background-color: #FFFFFF;
-}
-
-.our_portfolio{
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color:#2E2F42;
-}
-.bank-app{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-}
-.app_{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.footer{
-    background-color:#2e2f42;
-
-}
-.logo__{
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em ;
-    text-transform: uppercase;
-    color: #4d5ae5;
-}
-.span-_{
-    color: #F4F4FD;
-}
-.increase{
-    line-height: 1.5;
-    color:#F4F4FD;
-    letter-spacing: 0.02em;
-}
-
-.footer-logo .logo-part{
-    color: #F4F4FD;
-}
-.logo-part{
-    color:#2e2f42
+    color: #434455; 
+} 
+ 
+.footer{ 
+    background-color:#2e2f42; 
+    padding: 100px 0; 
+ 
+} 
+.logo__{ 
+    font-family: "Raleway", sans-serif; 
+    font-weight: 700; 
+    font-size: 18px; 
+    line-height: 1.17; 
+    letter-spacing: 0.03em ; 
+    text-transform: uppercase; 
+    color: #4d5ae5; 
+} 
+.span-_{ 
+    color: #F4F4FD; 
+} 
+.increase{ 
+    line-height: 1.5; 
+    color:#F4F4FD; 
+    letter-spacing: 0.02em; 
+    max-width: 264px; 
+} 
+ 
+.footer-logo, 
+.logo-part{ 
+    color: #F4F4FD; 
+} 
+.footer-logo{ 
+    display: inline-block; 
+    margin-bottom: 16px; 
+} 
+.logo-part{ 
+    color:#2e2f42 
 }
