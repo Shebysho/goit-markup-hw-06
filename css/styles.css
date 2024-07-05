@@ -10,10 +10,23 @@ body{
 a{
     text-decoration:none;
 }
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0%;
 
+}
 ul{
     list-style: none;
+    margin: 0%;
+    padding-left: 0%;
 }
+{ 
+    max-width: 
+    padding-left:  
+    padding-right:  
+    margin-left:  
+    margin-right:  
+    }
+    
 .logo{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -22,6 +35,11 @@ ul{
     letter-spacing: 0.03em;
     text-transform:uppercase;
     color: #4d5ae5;
+    max-width: 115px;
+    padding-left: 156px; 
+    padding-top:24px;  
+    margin-left:  
+    margin-right:
 }
 .logo___{
     color:#2e2f42;
@@ -63,6 +81,10 @@ ul{
     line-height: 1.07;
     text-align: center;
     color: #ffffff;
+    max-width: 496px;
+    max-height: 120px;
+    padding-left:  472px;
+    padding-top: 260px;  
 }
 .button{
     font-family: "Roboto", sans-serif;
