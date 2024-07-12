@@ -23,7 +23,8 @@ h1,h2,h3,h4,h5,h6,p{
  
 } 
 .headerer{ 
-    border-bottom: 1px solid #e7e9fc; 
+    border-bottom: 1px solid #e7e9fc;
+    box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); 
 } 
 .divnav{ 
     display: flex; 
@@ -39,6 +40,20 @@ ul{
     margin: 0%; 
     padding-left: 0%; 
 } 
+.listu{
+    position: relative;
+    color: #404bbf;
+}
+.listu::after{
+    content:"";
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+}
 .ulstudio{
     display: flex;
     gap: 40px
@@ -87,6 +102,7 @@ ul{
     color: #434455; 
     padding-top: 24px;
     padding-bottom: 24px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } 
 .mail:hover, 
 .mail:focus{ 
@@ -101,6 +117,7 @@ ul{
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    max-width: 1440px;
 
 } 
  
@@ -134,6 +151,7 @@ ul{
     cursor: pointer; 
     margin-left: auto;
     margin-right: auto;
+    transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  } 
  .elemento{ 
     padding: 120px 0; 
@@ -144,8 +162,19 @@ ul{
  
  } 
  .ourgoal{ 
-    width: calc((100% - 72px) / 4); 
+    width: calc((100% - 72px) / 4);
+    .icon-antena 
  } 
+ .anten-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #F4F4FD;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px;
+ }
  .button:hover, 
  .button:focus{ 
     background-color:#404bbf; 
@@ -210,7 +239,8 @@ ul{
 .spys{ 
     background-color: #FFFFFF; 
     width: calc((100% - 72px) / 4); 
-    border-radius: 0px 0px 4px 4px; 
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
 } 
 .divimya{ 
     padding: 32px 0; 
@@ -237,6 +267,7 @@ ul{
     gap: 24px;
     width: 232px;
     height: 40px;
+    justify-content: center; 
 }
 .icon-item{
     width: 40px;
@@ -279,8 +310,14 @@ ul{
     row-gap: 48px; 
 } 
 .ulappino{ 
-    width: calc((100% - 48px) / 3); 
+    width: calc((100% - 48px) / 3);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 } 
+.img-icon{
+    position: relative;
+    overflow: hidden;
+}
 .bank-app{ 
     font-weight: 500; 
     font-size: 20px; 
@@ -300,6 +337,20 @@ ul{
     letter-spacing: 0.02em;
     color: #434455; 
 } 
+.div-p{
+    position: absolute;
+    top: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: zminna:#F4F4FD;
+    padding: 40px 32px;
+    background-color: #4d5ae5; 
+    height: 100%;
+    width: 100%;
+    transform: translateY(100%); 
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
  
 .footer{ 
     background-color:#2e2f42; 
@@ -344,4 +395,22 @@ ul{
     letter-spacing: 0.03em; 
     text-transform:uppercase; 
     color: #4d5ae5; 
+}
+.div-footerer{
+    display: flex;
+    align-items: baseline;
+}
+.div-svg{
+    margin-right: 120px;
+}
+.div-idea{
+
+}
+.social-media{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: zminnna:#FFFFFF;
+    margin-bottom: 16px;
 }
