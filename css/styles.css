@@ -53,32 +53,50 @@ ul{
     display: flex;
     gap: 40px;
 }
-.logo{ 
-    font-family: "Raleway", sans-serif; 
-    font-weight: 700; 
-    font-size: 18px; 
-    line-height: 1.17; 
-    letter-spacing: 0.03em; 
-    text-transform:uppercase; 
-    color: #4d5ae5; 
-    padding-top:24px; 
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    padding-top: 24px;
     margin-right: 76px;
     padding-bottom: 24px;
-} 
-.logo___{ 
-    color:#2e2f42; 
-} 
-.studio{ 
-    font-weight: 500; 
-    font-size: 16px; 
-    line-height: 1.5; 
-    letter-spacing: 0.02em; 
-    color: #2E2F42; 
+}
+
+.logo___ {
+    color: #2e2f42;
+}
+.navigation a {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+  
+  .navigation .listu a:first-child {
+    color: #404bbf;
+  }
+  
+  .navigation .listu a {
+    margin-right: 76px;
+  }
+.studio {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
     padding: 24px 0;
     display: block;
     position: relative;
-    
-} 
+}
 .studio::after{
     content:"";
     width: 100%;
@@ -167,7 +185,6 @@ ul{
  } 
  .ourgoal{ 
     width: calc((100% - 72px) / 4);
-    .icon-antena 
  } 
  .anten-div{
     display: flex;
@@ -350,7 +367,7 @@ ul{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: zminna:#F4F4FD;
+    color: var(--p-color);
     padding: 40px 32px;
     background-color: #4d5ae5; 
     height: 100%;
