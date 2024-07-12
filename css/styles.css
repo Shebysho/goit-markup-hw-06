@@ -44,16 +44,7 @@ ul{
     position: relative;
     color: #404bbf;
 }
-.listu::after{
-    content:"";
-    width: 100%;
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-    height: 4px;
-    background-color: #404bbf;
-    border-radius: 2px;
-}
+
 .ulstudio{
     display: flex;
     gap: 40px
@@ -85,10 +76,23 @@ ul{
     color: #2E2F42; 
     padding: 24px 0;
     display: block;
+    position: relative;
+    
 } 
+.studio::after{
+    content:"";
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+}
 .studio:hover, 
 .studio:focus{ 
-    color:#404bbf; 
+    color:#404bbf;
+    
 } 
  
 .adressa{ 
@@ -198,9 +202,6 @@ ul{
     color:#2E2F42; 
     letter-spacing:0.02em; 
  } 
- .icon-antena{
-    fill:;
- }
  .strategy{ 
     font-weight: 500; 
     font-size: 20px; 
@@ -255,6 +256,10 @@ ul{
     margin-bottom: 8px; 
  
  } 
+ .img-icon{
+    position: relative;
+    overflow: hidden;
+ }
 .product{ 
     font-size: 16px; 
     line-height: 1.5 ; 
@@ -272,6 +277,7 @@ ul{
 .icon-item{
     width: 40px;
     height: 40px;
+    transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-link{
     width: 100%;
@@ -285,7 +291,8 @@ ul{
 .icon-icon{
     fill: #F4F4FD;
 }
-.icon-link:hover{
+.icon-link:hover,
+.icon-link:focus{
     background-color:#31D0AA ;
 }
 .spys_{ 
@@ -403,14 +410,15 @@ ul{
 .div-svg{
     margin-right: 120px;
 }
-.div-idea{
-
+.svg-footer{
+    display: flex;
+    gap: 16px; 
 }
 .social-media{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: zminnna:#FFFFFF;
+    color: var(--main-color);
     margin-bottom: 16px;
 }
