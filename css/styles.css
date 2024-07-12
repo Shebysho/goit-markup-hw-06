@@ -82,6 +82,7 @@ ul{
   
   .navigation .listu a:first-child {
     color: #404bbf;
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
   .navigation .listu a {
@@ -304,6 +305,7 @@ ul{
     justify-content: center;
     border-radius: 50%;
     background-color: #4D5AE5;
+    transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-icon{
     fill: #F4F4FD;
@@ -314,6 +316,7 @@ ul{
 }
 .spys_{ 
     background-color: #FFFFFF; 
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } 
 .ourportmane{ 
     padding: 120px 0 120px 0; 
@@ -338,6 +341,9 @@ ul{
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 } 
+.ulappino:hover{
+    transform: translateY(0%);
+}
 .img-icon{
     position: relative;
     overflow: hidden;
