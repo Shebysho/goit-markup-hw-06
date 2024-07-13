@@ -290,7 +290,6 @@ ul{
 .icon-list{
     display: flex;
     gap: 24px;
-
     justify-content: center; 
 }
 .icon-item{
