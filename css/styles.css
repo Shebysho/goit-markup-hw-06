@@ -47,7 +47,7 @@ ul{
 
 .ulstudio{
     display: flex;
-    gap: 40px
+    gap: 40px;
 }
 .ulmail{
     display: flex;
@@ -86,6 +86,11 @@ ul{
   
   .navigation .listu a {
     margin-right: 76px;
+  }
+  .studio1{
+    padding: 24px 0;
+    display: block;
+    position: relative;
   }
 .studio {
     padding: 24px 0;
@@ -135,6 +140,8 @@ ul{
     background-position: center center;
     background-size: cover;
     max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
 
 } 
  
@@ -278,12 +285,12 @@ ul{
     letter-spacing: 0.02em; 
     color:#434455; 
     text-align: center; 
+    margin-bottom: 8px;
 } 
 .icon-list{
     display: flex;
     gap: 24px;
-    width: 232px;
-    height: 40px;
+
     justify-content: center; 
 }
 .icon-item{
