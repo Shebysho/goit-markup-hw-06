@@ -499,7 +499,7 @@ color: #2E2F42;
     display: flex; 
     justify-content: center;
     align-items: center; 
-    font-family: "Roboto, sans-serif ";
+    font-family: "Roboto", sans-serif ;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5 ;
@@ -669,7 +669,7 @@ color: #2E2F42;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em; 
-    color: var(label-color)
+    color: var(--label-color)
 }
 .span-privacy{
     width: 16px;
@@ -680,6 +680,7 @@ color: #2E2F42;
     display: inline-flex; 
     align-items: center;
     justify-content: center;
+    fill: transparent; 
 }
 input[type="checkbox"]:checked{
     background-color:#404bbf;
