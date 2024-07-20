@@ -688,7 +688,7 @@ color: #2E2F42;
 input:checked + label > span{
     background-color:#404bbf;
     border: none; 
-    fill:#F4F4FD
+    fill:#F4F4FD;
 }
 .privacy-p{
     color:#4d5ae5;
