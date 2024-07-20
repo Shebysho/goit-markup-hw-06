@@ -464,6 +464,57 @@ color: #2E2F42;
 .icon-link-foot:hover{
     background-color: #31d0aa; 
 }
+.subs{
+    margin-bottom: 16px; 
+    font-weight: 500;
+    font-size: 16px; 
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff; 
+}
+.form-subs{
+    display: flex; 
+}
+.label-subs{
+    gap: 24px;
+}
+.inp-subs{
+    width: 264px;
+    height: 40px; 
+    border: 1px solid #ffffff; 
+    background-color: transparent; 
+    font-size: 12px; 
+    line-height: 2; 
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px; 
+    color: #ffffff; 
+
+}
+.inp-subs::placeholder{
+    color: #ffffff; 
+}
+.butt-subs{
+    min-width: 165px; 
+    height: 40px; 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5 ;
+    letter-spacing: 0.04em;
+    color: #ffffff ;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none; 
+    border-radius: 4px; 
+}
+.svg-subs{
+    margin-left: 16px;
+}
 .backdrop{
     position: fixed;
     top:0;
@@ -641,4 +692,7 @@ input[type="checkbox"]:checked{
 }
 .privacy-p{
     color:#4d5ae5;
+}
+.form-divo{
+    margin-bottom: 16px;
 }
