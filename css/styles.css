@@ -576,9 +576,9 @@ color: #2E2F42;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.close-btn:hover .icon-close,
-.close-btn:focus .icon-close{
-    fil:#ffffff;
+.button:hover svg 
+.button:focus svg {
+    fill:#ffffff;
 }
 .form-div{
     margin-bottom: 8px;
@@ -665,6 +665,9 @@ color: #2E2F42;
 .checkbox-form{
     margin-bottom: 24px;
 }
+.input:focus + svg {
+    fill: #4D5AE5;
+}
 .user-label{
     font-size: 12px;
     line-height: 1.17;
@@ -682,7 +685,7 @@ color: #2E2F42;
     justify-content: center;
     fill: transparent; 
 }
-input[type="checkbox"]:checked{
+input:checked + label > span{
     background-color:#404bbf;
     border: none; 
     fill:#F4F4FD
