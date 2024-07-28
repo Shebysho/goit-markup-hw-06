@@ -59,15 +59,26 @@
         </button>
       
       </div>
-      <div class="mobile-menu ">
+      <div class="mobile-menu is-open ">
         <div class="container mobile-menu-container">
-          <button class="mobile-menu-close">
+          <button class="close-btn">
             <svg class="icon-close" width="8" height="8">
               <use href="./images/icons1.svg#icon-close-black-18dp-2-1"></use>
             </svg>
           </button>
-          <nav class="mobile-menu-nav">Navigation</nav>
-          <address>Address</address>
+          <nav class="mobile-menu-nav">
+            <ul class="ul-contacts">
+              <li class="menu-nav-li-studio">Studio</li>
+              <li class="menu-nav-li">Portfolio</li>
+              <li class="menu-nav-li">Contacts</li>
+            </ul>
+          </nav>
+          <address>
+            <ul>
+              <li><a class="address-menu" href="mailto:info@devstudio.com">info@devstudio.com</a></li> 
+              <li><a class="address-menu-tel" href="tel:+110001111111">+11 (000) 111-11-11</a></li> 
+            </ul>
+          </address>
 
           <ul class="icon-list-menu">
             <li class="icon-item-menu">
@@ -166,14 +177,14 @@
            
           <li class="spys"> 
              <picture>
-              <source srcset="./images/MarkGuerrero.jpg 1x,  ./images/mark-2x.jpg 2x" media="(min-width:320px)">
-             </picture>
-             <img src="./images/MarkGuerrero.jpg"  
+              <source srcset="./images/MarkGuerrero.jpg 1x,  ./images/mark-2x.jpg 2x" >
+              <img src="./images/MarkGuerrero.jpg"  
              alt="MarGuerrero"  
-             width="264"  
+             width="264"
              height="260"/>  
+             </picture>
              <div class="divimya"> 
-               <h3 class="mark">Mark Guerrero</h3>  
+             <h3 class="mark">Mark Guerrero</h3> 
                <p class="product">Product Designer</p>
                <ul class="icon-list">
                 <li class="icon-item">
@@ -209,10 +220,13 @@
             </li> 
 
           <li class="spys"> 
-             <img src="./images/TomFord.jpg"  
+            <picture>
+              <source srcset="./images/TomFord.jpg 1x,  ./images/tom-2x.jpg 2x" >
+              <img src="./images/TomFord.jpg"  
              alt="TomFord"  
-             width="264"  
-             height="260"/>  
+             width="264"
+             height="260"/> 
+            </picture>
              <div class="divimya"> 
                <h3 class="mark">Tom Ford</h3>  
                <p class="product">Frontend Developer</p>  
@@ -250,10 +264,13 @@
            </li>
              
            <li class="spys"> 
-            <img src="./images/CamilaGarcia.jpg"  
+            <picture>
+              <source srcset="./images/CamilaGarcia.jpg 1x,  ./images/camila-2x.jpg 2x" >
+              <img src="./images/CamilaGarcia.jpg"  
             alt="CamilaGarcia"  
-            width="264"  
+            width="264"
             height="260"/>  
+            </picture>  
             <div class="divimya"> 
               <h3 class="mark">Camila Garcia</h3>  
               <p class="product">Marketing</p>
@@ -291,10 +308,13 @@
            </li> 
 
            <li class="spys"> 
-            <img src="./images/DanielWilson.jpg"  
+            <picture>
+              <source srcset="./images/DanielWilson.jpg 1x,  ./images/daniel-2x.jpg 2x" >
+              <img src="./images/DanielWilson.jpg"  
             alt="DanielWilson"  
-            width="264"  
-            height="260"/>  
+            width="264"
+            height="260"/> 
+            </picture>
             <div class="divimya"> 
               <h3 class="mark">Daniel Wilson</h3>  
               <p class="product">UI Designer</p>
@@ -334,14 +354,19 @@
         </div> 
       </section> 
  
-      <section class="ourportmane hidden"> 
+      <section class="ourportmane"> 
         <div class="container"> 
           <h2 class="our_portfolio">Our Portfolio</h2> 
           <ul class="ulapp"> 
             
             <li class="ulappino">
-              <div class="img-icon">                 
-                  <img src="./images/img-min.jpg" alt="app-min" width="360"/>
+              <div class="img-icon"> 
+                  <picture>
+                    <source srcset="./images/obank-mob-1x.jpg 1x, ./images/obank-mob-2x.jpg 2x " media="(max-width:767px)">
+                    <source srcset="./images/obank-tab-1x.jpg 1x, ./images/obank-tab-2x.jpg 2x " media="(min-width:768px)">
+                    <source srcset="./images/img-min.jpg 1x, ././images/obank-desk-2x.jpg 2x" media="(min-width:1168px)">
+                    <img src="./images/img-min.jpg" alt="app-min" width="360"/>
+                  </picture>                               
                   <p class="div-p">
                     14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
                 </p>
@@ -354,9 +379,14 @@
  
            <li class="ulappino"> 
             <div class="img-icon">
-              <img src="./images/img1-min.jpg" 
-              alt="img1-min" 
-              width="360"/> 
+              <picture>
+                <source srcset="./images/ocach-mob-1x.jpg 1x, ./images/ocach-mob-2x.jpg 2x " media="(max-width:767px)">
+                <source srcset="./images/ocach-tab-1x.jpg 1x, ./images/ocach-tab-2x.jpg 2x " media="(min-width:768px)">
+                <source srcset="./images/img1-min.jpg 1x 1x, ././images/ocach-desk-2x.jpg 2x" media="(min-width:1168px)">
+                <img src="./images/img1-min.jpg" 
+                alt="img1-min" 
+                width="360"/>
+              </picture> 
               <p class="div-p">
                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
               </p>
@@ -367,11 +397,16 @@
             </div> 
            </li> 
  
-           <li class="ulappino"> 
-            <div class="img-icon">             
-              <img src="./images/met-app-min.jpg"              
-              alt="met-app-min" 
-              width="360"/> 
+           <li class="ulappino">            
+            <div class="img-icon">  
+              <picture>
+                <source srcset="./images/omed-mob-1x.jpg 1x, ./images/omed-mob-2x.jpg 2x " media="(max-width:767px)">
+                <source srcset="./images/omed-tab-1x.jpg 1x, ./images/omed-tab-2x.jpg 2x " media="(min-width:768px)">
+                <source srcset="./images/met-app-min.jpg 1x, ././images/omed-desk-2x.jpg 2x" media="(min-width:1168px)">
+                <img src="./images/met-app-min.jpg"              
+                alt="met-app-min" 
+                width="360"/>
+              </picture>      
               <p class="div-p">
                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
               </p>
@@ -382,11 +417,16 @@
             </div> 
            </li> 
  
-           <li class="ulappino"> 
-            <div class="img-icon">             
-              <img src="./images/auto-min.jpg" 
-              alt="taxi" 
-              width="360"/> 
+           <li class="ulappino">           
+            <div class="img-icon">   
+              <picture>
+                <source srcset="./images/otaxi-mob-1x.jpg 1x, ./images/otaxi-mob-2x.jpg 2x " media="(max-width:767px)">
+                <source srcset="./images/omed-tab-1x.jpg 1x, ./images/otaxi-tab-2x.jpg 2x " media="(min-width:768px)">
+                <source srcset="./images/auto-min.jpg 1x, ././images/otaxi-desk-2x.jpg 2x" media="(min-width:1168px)">
+                <img src="./images/auto-min.jpg" 
+                alt="taxi" 
+                width="360"/> 
+              </picture>
               <p class="div-p">
                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
               </p>
@@ -398,10 +438,15 @@
            </li> 
  
            <li class="ulappino"> 
-            <div class="img-icon">           
-              <img src="./images/screen-min.jpg" 
+            <div class="img-icon">  
+              <picture>
+                <source srcset="./images/oscr-mob-1x.jpg 1x, ./images/oscr-mob-2x.jpg 2x " media="(max-width:767px)">
+                <source srcset="./images/oscr-tab-1x.jpg 1x, ./images/oscr-tab-2x.jpg 2x " media="(min-width:768px)">
+                <source srcset="./images/screen-min.jpg 1x, ././images/oscr-desk-2x.jpg 2x" media="(min-width:1168px)">
+                <img src="./images/screen-min.jpg" 
               alt="screen" 
               width="360"/> 
+              </picture>                                   
               <p class="div-p">
                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
               </p>
@@ -411,12 +456,16 @@
               <p class="app_">Design</p> 
             </div> 
            </li> 
- 
            <li class="ulappino"> 
-            <div class="img-icon">             
-              <img src="./images/girl-min.jpg"  
-              alt="girl"  
-              width="360"/> 
+            <div class="img-icon">  
+              <picture>
+                <source srcset="./images/oonl-mob-1x.jpg 1x, ./images/oonl-mob-2x.jpg 2x " media="(max-width:767px)">
+                <source srcset="./images/oonl-tab-1x.jpg 1x, ./images/oonl-tab-2x.jpg 2x " media="(min-width:768px)">
+                <source srcset="./images/girl-min.jpg 1x, ./images/oonl-desk-2x.jpg 2x" media="(min-width:1168px)">
+                <img src="./images/girl-min.jpg"  
+                alt="girl"  
+                width="360"/> 
+              </picture>              
               <p class="div-p">
                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
               </p>
@@ -432,7 +481,7 @@
       </section>  
   
     </main>  
-    <footer class="footer hidden"> 
+    <footer class="footer"> 
       <div class=" container div-footerer">
         <div class="div-svg"> 
           <a href="./index.html" class="logofot footer-logo">Web<span class="logo-part">Studio</span></a>  
@@ -497,8 +546,8 @@
 
 
     
-    <div class="backdrop is-open ">
-      <div class="modal hidden">
+    <div class="backdrop">
+      <div class="modal">
         <button type="button" class="close-btn">
           <svg class="icon-close" width="8" height="8">
             <use href="./images/icons1.svg#icon-close-black-18dp-2-1"></use>
