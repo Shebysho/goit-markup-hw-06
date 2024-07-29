@@ -46,7 +46,7 @@ button{
         width: 768px;
     }
 }
-@media screen and (min-width: 1168px){
+@media screen and (min-width: 1158px){
     .container{
         width: 1158px;
         padding: 0 15px;
@@ -135,6 +135,9 @@ button{
         color: #404bbf;
         transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
+    .logo-part{
+        color: #404bbf;
+    }
       
     
     
@@ -196,7 +199,7 @@ button{
         display: none;
     }
 }
-@media screen and (min-width: 1168px){
+@media screen and (min-width: 1158px){
     .header-logo{
         margin-right: 76px;
     }
@@ -288,6 +291,18 @@ button{
     letter-spacing: 0.02em;
     color: #404bbf;
 }
+.ul-contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.ul-address{
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 40px;
+}
 .menu-nav-li{
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -295,8 +310,6 @@ button{
     line-height: 111%;
     letter-spacing: 0.02em;
     color: #2e2f42;
-}
-.ul-contacts{
 }
 .address-menu{
     font-family: "Roboto", sans-serif;
@@ -375,7 +388,7 @@ button{
     color: #ffffff; 
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 56px;
+    margin-bottom: 72px;
     max-width: 216px;
 } 
 .button{ 
@@ -404,7 +417,8 @@ button{
     }
     .zahol{
         max-width: 496px;
-        font-size: 56px; 
+        font-size: 56px;
+        margin-bottom: 36px; 
     }
     .element{
         background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
@@ -421,9 +435,13 @@ button{
 }
  }
 
- @media screen and (min-width: 1168px){
+ @media screen and (min-width: 1158px){
+    .zahol{
+        margin-bottom: 48px;
+    }
     .element{
         padding: 188px 0;
+        min-width: 1440px;
     }
     .element{
         background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
@@ -490,17 +508,17 @@ button{
     .ulstrateg{
         display: flex; 
         flex-wrap: wrap; 
-        column-gap: 72px; 
-        row-gap: 24px; 
+        column-gap: 24px; 
+        row-gap: 72px; 
     }
     .ourgoal{ 
-        width: calc((100% - 72px) / 2);
+        width: calc((100% - 24px) / 2);
      } 
      .strategy{
         text-align:left;
      }
  }
-@media screen and (min-width: 1168px){
+@media screen and (min-width: 1158px){
     .anten-div{
         display:flex;
     }         
@@ -540,6 +558,7 @@ button{
         line-height: 1.5; 
         letter-spacing: 0.02em; 
         color:#434455; 
+        font-weight: 400;
      } 
 }
 
@@ -582,8 +601,9 @@ button{
  } 
  .ulspys{ 
     display: flex; 
-    gap: 72px;
-    flex-wrap: wrap; 
+    gap: 72px 24px;
+    flex-wrap: wrap;
+    justify-content: center; 
  } 
 .spys{ 
     background-color: #FFFFFF;  
@@ -627,14 +647,11 @@ button{
  } 
 @media screen and (min-width: 768px){
     .spys{
-        width: calc((100% - 72px) / 2);
-        row-gap: 64px;
-        column-gap: 24px;
-        max-width: 262px;
+        width: 264px;
     }
 
 }
-@media screen and (min-width: 1168px){
+@media screen and (min-width: 1158px){
     .photo{ 
         padding: 120px 0; 
      
@@ -674,7 +691,7 @@ button{
 .ulapp{ 
     display: flex; 
     flex-wrap: wrap; 
-    column-gap: 48px; 
+    gap: 72px 24px; 
 } 
 .ulappino{ 
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
@@ -724,11 +741,11 @@ button{
 }
 @media screen and (min-width: 768px){
     .ulappino{
-        width: calc((100% - 72px) / 2);
+        width: calc((100% - 24px) / 2);
 
     }
 }
-@media screen and (min-width: 1168px){
+@media screen and (min-width: 1158px){
     .ourportmane{ 
         padding: 120px 0; 
     } 
@@ -946,10 +963,14 @@ button{
 .div-svg{
     justify-content: center; 
     align-items: center; 
+    margin-bottom: 72px;
 }
 .svg-footer{
     display: flex;
     gap: 16px; 
+}
+.div-idea{
+    margin-bottom: 72px;
 }
 
 .icon-link-foot:focus,
@@ -958,14 +979,17 @@ button{
 }
 @media screen and (min-width: 768px){
     .footer { 
-        padding-left: 92px; 
+ 
       
-        padding-right: 92px; 
+        
       } 
      
       .div-footerer { 
+        padding: 0 108px;
+        gap: 72px 24px;
+        flex-wrap: wrap;
         column-gap: 24px; 
-         
+         display: flex;
         align-items: center;  
         justify-content: flex-start; 
       } 
@@ -993,7 +1017,10 @@ button{
        
       } 
     }
-@media screen and (min-width: 1168px){
+@media screen and (min-width: 1158px){
+    element.style{
+        margin-left: auto;
+    }
     .footer{ 
         background-color:#2e2f42; 
         padding: 100px 0; 
@@ -1039,6 +1066,8 @@ button{
         color: #4d5ae5; 
     }
     .div-footerer{
+        gap: 0;
+        padding: 0 15px;
         display: flex;
         align-items: baseline;
     }
@@ -1152,7 +1181,7 @@ button{
     border-radius: 4px;
     transform: translate(-50%, -50%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    padding: 72px 24px 24px 24px;
+    padding: 72px 16px 16px 24px;
 }
 .backdrop:not(.is-open ).modal{
     transform: translate(-50%, -50%) scale(1.5);
@@ -1303,9 +1332,17 @@ input:checked + label > span{
 .form-divo{
     margin-bottom: 16px;
 }
+.user-label{
+    display: flex;
+    align-items: center;
+}
+.span-privacy{
+    flex-shrink: 0;
+}
 @media screen and (min-width: 768px){
     .modal{
         width: 408px;
         height: 584px;
+        padding: 72px 24px 24px 24px;
     }
 }

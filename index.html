@@ -73,10 +73,10 @@
               <li class="menu-nav-li">Contacts</li>
             </ul>
           </nav>
-          <address>
+          <address class="ul-address">
             <ul>
-              <li><a class="address-menu" href="mailto:info@devstudio.com">info@devstudio.com</a></li> 
-              <li><a class="address-menu-tel" href="tel:+110001111111">+11 (000) 111-11-11</a></li> 
+              <li><a class="address-menu" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+              <li><a class="address-menu-tel" href="mailto:info@devstudio.com">info@devstudio.com</a></li>  
             </ul>
           </address>
 
@@ -364,7 +364,7 @@
                   <picture>
                     <source srcset="./images/obank-mob-1x.jpg 1x, ./images/obank-mob-2x.jpg 2x " media="(max-width:767px)">
                     <source srcset="./images/obank-tab-1x.jpg 1x, ./images/obank-tab-2x.jpg 2x " media="(min-width:768px)">
-                    <source srcset="./images/img-min.jpg 1x, ././images/obank-desk-2x.jpg 2x" media="(min-width:1168px)">
+                    <source srcset="./images/img-min.jpg 1x, ././images/obank-desk-2x.jpg 2x" media="(min-width:1158px)">
                     <img src="./images/img-min.jpg" alt="app-min" width="360"/>
                   </picture>                               
                   <p class="div-p">
@@ -382,7 +382,7 @@
               <picture>
                 <source srcset="./images/ocach-mob-1x.jpg 1x, ./images/ocach-mob-2x.jpg 2x " media="(max-width:767px)">
                 <source srcset="./images/ocach-tab-1x.jpg 1x, ./images/ocach-tab-2x.jpg 2x " media="(min-width:768px)">
-                <source srcset="./images/img1-min.jpg 1x 1x, ././images/ocach-desk-2x.jpg 2x" media="(min-width:1168px)">
+                <source srcset="./images/img1-min.jpg 1x 1x, ././images/ocach-desk-2x.jpg 2x" media="(min-width:1158px)">
                 <img src="./images/img1-min.jpg" 
                 alt="img1-min" 
                 width="360"/>
@@ -402,7 +402,7 @@
               <picture>
                 <source srcset="./images/omed-mob-1x.jpg 1x, ./images/omed-mob-2x.jpg 2x " media="(max-width:767px)">
                 <source srcset="./images/omed-tab-1x.jpg 1x, ./images/omed-tab-2x.jpg 2x " media="(min-width:768px)">
-                <source srcset="./images/met-app-min.jpg 1x, ././images/omed-desk-2x.jpg 2x" media="(min-width:1168px)">
+                <source srcset="./images/met-app-min.jpg 1x, ././images/omed-desk-2x.jpg 2x" media="(min-width:1158px)">
                 <img src="./images/met-app-min.jpg"              
                 alt="met-app-min" 
                 width="360"/>
@@ -422,7 +422,7 @@
               <picture>
                 <source srcset="./images/otaxi-mob-1x.jpg 1x, ./images/otaxi-mob-2x.jpg 2x " media="(max-width:767px)">
                 <source srcset="./images/omed-tab-1x.jpg 1x, ./images/otaxi-tab-2x.jpg 2x " media="(min-width:768px)">
-                <source srcset="./images/auto-min.jpg 1x, ././images/otaxi-desk-2x.jpg 2x" media="(min-width:1168px)">
+                <source srcset="./images/auto-min.jpg 1x, ././images/otaxi-desk-2x.jpg 2x" media="(min-width:1158px)">
                 <img src="./images/auto-min.jpg" 
                 alt="taxi" 
                 width="360"/> 
@@ -442,7 +442,7 @@
               <picture>
                 <source srcset="./images/oscr-mob-1x.jpg 1x, ./images/oscr-mob-2x.jpg 2x " media="(max-width:767px)">
                 <source srcset="./images/oscr-tab-1x.jpg 1x, ./images/oscr-tab-2x.jpg 2x " media="(min-width:768px)">
-                <source srcset="./images/screen-min.jpg 1x, ././images/oscr-desk-2x.jpg 2x" media="(min-width:1168px)">
+                <source srcset="./images/screen-min.jpg 1x, ././images/oscr-desk-2x.jpg 2x" media="(min-width:1158px)">
                 <img src="./images/screen-min.jpg" 
               alt="screen" 
               width="360"/> 
@@ -461,7 +461,7 @@
               <picture>
                 <source srcset="./images/oonl-mob-1x.jpg 1x, ./images/oonl-mob-2x.jpg 2x " media="(max-width:767px)">
                 <source srcset="./images/oonl-tab-1x.jpg 1x, ./images/oonl-tab-2x.jpg 2x " media="(min-width:768px)">
-                <source srcset="./images/girl-min.jpg 1x, ./images/oonl-desk-2x.jpg 2x" media="(min-width:1168px)">
+                <source srcset="./images/girl-min.jpg 1x, ./images/oonl-desk-2x.jpg 2x" media="(min-width:1158px)">
                 <img src="./images/girl-min.jpg"  
                 alt="girl"  
                 width="360"/> 
@@ -624,14 +624,6 @@
 
           </div>
           <div class="checkbox-form">
-            <span class="span-privacy">
-              <svg
-              width="10"
-              height="8"
-              class="icon-vector">
-                <use href="./images/icons1.svg#icon-vector1"></use>
-              </svg>
-            </span>
 
             <input 
              type="checkbox"
@@ -640,10 +632,18 @@
              name="user-privacy"
              class="visually-hidden">
 
-             <label for="user-privacy" class="user-label"> I accept the terms and conditions of the
+             <label for="user-privacy" class="user-label"><span>I accept the terms and conditions of the</span>
           
               <a href="" class="privacy-p">Privacy Policy</a>
-             </label>
+              <span class="span-privacy">
+                <svg
+                width="10"
+                height="8"
+                class="icon-vector">
+                  <use href="./images/icons1.svg#icon-vector1"></use>
+                </svg>
+              </span>
+            </label>
              
 
           </div>
